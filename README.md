@@ -6,7 +6,18 @@ A Javascript to make a header div fixed.
 
 Usage:
 
-    jQuery.stickheader( $('.header.floater'), 40, $('#logo a'), 22);
+    <script>
+        jQuery.stickheader( $('.header.floater'), 40, $('#logo a'), 22);
+        /**
+         * $('.header.floater')    =>    the element that you want to stick.
+         * 40    =>    the pixel of the screen scroll to and then you want
+    to stick the element above.
+         * $('#logo a')    =>    the element that you want to slide in the 
+    1st element
+         * 22    =>    the pixel length/height that the element above slide
+    with 1st element.it's should be less than 1st pixel value,or it will throw a bug.
+         */		
+    <script>
 
 
 Demo:
