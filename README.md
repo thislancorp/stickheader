@@ -5,12 +5,12 @@ A Javascript to make a header div fixed.
 
 
 Usage:
-    <script>
-	    jQuery.stickheader( $('.header.floater'), 40, $('#logo a'), 22);
-    </script>
+    jQuery.stickheader( $('.header.floater'), 40, $('#logo a'), 22);
+
 
 Demo:
     http://www.hexdata.cn
+
 
 License:
     MIT License
